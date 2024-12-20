@@ -1,0 +1,269 @@
+/* start breadcrumb about */
+.about-us{
+    background:url("../images/team.jpg") center center no-repeat;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    min-height:400px;
+    
+
+}
+.about-us .about{
+    background:rgba(5, 39, 8, 0.5);
+    min-height:400px;
+}
+
+container {
+    background-color: #f5f5f5;
+ 
+}
+.about-us .breadcrumb{
+    transform:translate(-60px,250px)
+}
+.about-us .about2{color:#fff;
+    transform:translate(-60px,150px)
+}
+.breadcrumb a{
+    color:#fff;
+    text-decoration:none
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    color:#fff !important
+}
+/* end breadcrumb about*/
+
+/* strat about section1 */
+    .container .vision {
+        margin-top:100px;
+        margin-bottom:70px
+    }
+    .container  .image2{
+        margin-top:70px;
+        margin-bottom:70px
+    }
+    .container  .about1{
+        margin-top:100px;
+        margin-bottom:70px
+    }
+    .container  .image1{
+        margin-top:100px;
+        margin-bottom:70px
+    }
+    .container  .mission{
+        margin-top:120px;
+        margin-bottom:100px
+    }
+    .container  .image3{
+        margin-top:100px;
+        margin-bottom:200px
+    }
+    
+/* end about section1 */
+
+
+
+
+/* start breadcrumb contact  */ 
+.contact-us{
+    background:url("../images/wordpress24.jpg") center center no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    min-height:400px
+}
+.contact-us .contact{
+    background:rgba(5, 39, 8, 0.5);
+    min-height:400px
+}
+.contact-us .breadcrumb{
+    transform:translate(-60px,250px)
+}
+.contact-us .contact2{color:#fff;
+    transform:translate(-60px,150px)
+}
+.breadcrumb a{
+    color:#fff;
+    text-decoration:none
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    color:#fff !important}
+
+/* end breadcrumb  contact */
+/* start contact section */
+.contact1-us {
+    padding-top:200px;
+    padding-bottom:200px;
+    /* background-color:#ccc; */
+    min-height:700px
+}
+
+.contact1-us .form-group{
+    height:100px;
+    padding-top:50px;}
+   
+.contact1-us .form{
+    background-color:#ccc;
+    padding:40px;
+    border-radius:10px
+
+}
+
+.contact1-us .button{
+    margin-top:120px;
+    padding-top:12px;
+    padding-bottom:12px
+}
+.contact1-us .team1{
+    background-color:#2251B5;
+    min-height:800px;
+    border-radius:10px;
+}
+.contact1-us .media{
+    height:120px;
+    color:#fff;
+    padding-top:60px;
+    padding-left:30px;
+    font-size:18px
+}
+.team1 h2{
+    color:#fff;
+    padding-top:100px;
+    padding-left:60px
+}
+
+.media .media-opject{
+    width:40px; height:30px
+}
+
+/* end contact section */
+/* start services */
+
+.services-us{
+    background:url("../images/wordpress30.jpg") center center no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;  
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    min-height:400px
+}
+.services-us .services{
+    background:rgba(5, 39, 8, 0.5);
+    min-height:400px
+}
+
+
+
+.services-us .breadcrumb{
+    transform:translate(-60px,250px)
+}
+.services-us .services2{color:#fff;
+    transform:translate(-20px,-30px)
+}
+.breadcrumb a{
+    color:#fff;
+    text-decoration:none
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    color:#fff !important}
+
+    /* waves */
+    .waves {
+        position:relative;
+        width: 100%;
+        height:15vh;
+        margin-bottom:-7px; 
+        max-height:150px;
+        background:rgba(5, 39, 8, 0.5);
+
+      }
+       /* Animation */
+    
+    .parallax > use {
+        animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+      }
+      .parallax > use:nth-child(1) {
+        animation-delay: -2s;
+        animation-duration: 7s;
+      }
+      .parallax > use:nth-child(2) {
+        animation-delay: -3s;
+        animation-duration: 10s;
+      }
+      .parallax > use:nth-child(3) {
+        animation-delay: -4s;
+        animation-duration: 13s;
+      }
+      .parallax > use:nth-child(4) {
+        animation-delay: -5s;
+        animation-duration: 20s;
+      }
+      @keyframes move-forever {
+        0% {
+         transform: translate3d(-90px,0,0);
+        }
+        100% { 
+          transform: translate3d(85px,0,0);
+        }
+      }
+
+
+/* end services */
+/* start services0 */
+
+    .services0 .images{
+        padding-top:150px;
+        padding-bottom:150px
+    }
+    .services0 .serv{
+        padding-top:220px;
+        padding-bottom:200px
+    }
+
+/* end services0 */
+/* start services1 */
+
+.services1{
+    padding-top:170px;
+    padding-bottom:170px;
+}
+
+.services1 .serv1{
+    padding-top:120px;
+    padding-bottom:120px
+}
+/* end services1 */
+/* start services2 */
+.services2{
+    padding-top:170px;
+    padding-bottom:170px;
+}
+
+.services2 .serv2{
+    padding-top:120px;
+    padding-bottom:120px
+}
+/* end services2 */
+
+/* start services3 */
+
+
+.services3{
+    padding-top:170px;
+    padding-bottom:170px;
+}
+
+.services3 .serv3{
+    padding-top:120px;
+    padding-bottom:120px
+}
+.services-us .breadcrumb{
+    transform:translate(-20px,250px)
+}
+.services-us .services3{color:#fff;
+    transform:translate(-20px,-30px)
+}
+
+
+/* end services3 */
